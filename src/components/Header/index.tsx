@@ -3,7 +3,7 @@ import {
   HeaderButtonsContainer,
   HeaderContainer,
 } from "./style";
-import coffeeLogoImg from "../../assets/coffee-delivery-logo.svg";
+import coffeeLogoImg from "../../assets/logoCoffeeDelivery.svg";
 import { MapPin, ShoppingCart } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 import { useCart } from "../../hooks/useCart";

@@ -1,4 +1,5 @@
-
+import { QuantityInput } from "../../../../components/QuantityInput";
+import { RegularText, TitleText } from "../../../../components/Typography";
 import {
   CoffeeCardContainer,
   Tags,
@@ -6,7 +7,7 @@ import {
   Description,
   CardFooter,
   AddCartWrapper,
-} from "./styles";
+} from "./style";
 import { ShoppingCart } from "phosphor-react";
 import { useState } from "react";
 import { useCart } from "../../../../hooks/useCart";
